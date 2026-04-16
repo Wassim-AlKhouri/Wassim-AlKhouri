@@ -121,7 +121,7 @@ Implemented from scratch in **C** a modular solver for regularized regression pr
 
 ---
 
-### 🗓️ [Interpreter Scheduling Problem — Combinatorial Optimization](https://github.com/Tomvray/Combinatorial/tree/main)
+### 🗓️ [Interpreter Scheduling Problem (Combinatorial Optimization)](https://github.com/Tomvray/Combinatorial/tree/main)
 Formulated and solved the **Interpreter Scheduling Problem (ISP)** (assigning language interpreters to multilingual sessions across a 40-block weekly schedule) as an **Integer Program** solved with **Gurobi**. Built three progressively richer models: (1) a base IP with two objective functions (maximise covered language pairs vs. maximise fully-covered sessions); (2) an extended model with operational constraints (session caps, consecutive-block limits); and (3) a bridging extension allowing indirect language coverage through intermediate interpreters. Benchmarked across multiple instance sizes (up to 24 languages, variable sessions and interpreters) reporting objective values, MIP gaps, and runtimes.
 
 `Python` `Gurobi` `Integer Programming` `Combinatorial Optimization` `MIP` `Scheduling`
