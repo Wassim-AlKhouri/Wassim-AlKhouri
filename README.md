@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Wassim 👋</h1>
+<h1 align="center">Hi, I'm Wassim</h1>
 
 <p align="center">
   <b>Computer Engineer · AI & Multi-Agent Systems · Brussels, Belgium</b><br/>
@@ -18,10 +18,10 @@
 
 I'm a Belgian computer engineer with a specialization in **AI, multi-agent systems, and swarm robotics**. My master's thesis was conducted at the [IRIDIA lab](https://iridia.ulb.ac.be/) (ULB's AI research unit), where I worked on simulating and studying emergent behaviors in multi-robot systems interacting with human crowds.
 
-- 🤖 Thesis: Multi-arena swarm robotics & human–robot crowd interaction (Unity + ARGoS + ROS1)
-- 🧠 Interests: Multi-agent RL, evolutionary game theory, NLP, game development
-- ☁️ Cloud: AWS certified (Cloud Foundations)
-- 🏆 3rd place at Euranova ML Hackathon (March 2025)
+- Thesis: Multi-arena swarm robotics & human–robot crowd interaction (Unity + ARGoS + ROS1)
+- Interests: Multi-agent RL, evolutionary game theory, NLP, game development
+- Cloud: AWS certified (Cloud Foundations)
+- 3rd place at Euranova ML Hackathon (March 2025)
 
 ---
 
@@ -63,7 +63,7 @@ I'm a Belgian computer engineer with a specialization in **AI, multi-agent syste
 
 ## Featured Projects
 
-### 🤖 Swarm Robotics & Human Crowd Interaction (MSc Thesis)
+### Swarm Robotics & Human Crowd Interaction (MSc Thesis)
 Investigated how a swarm of robots can guide a human crowd to evacuate a building, and how assumptions about human behavior shape swarm controller design and performance. Built an end-to-end, reproducible simulation pipeline coupling **Unity** (NavMesh-based pedestrian motion via ROS#) and **ARGoS** (robot physics and control) through **ROS 1**, supporting multi-arena headless execution for large-scale batch experiments. Human agents blend robot influence, social herding, and random exploration, modulated by a stress parameter. Swarm controllers were automatically synthesized with **AutoMoDe-TuttiFrutti** as probabilistic finite-state machines and tuned with **irace** under three human behavior regimes: cooperative, semi-cooperative, and socially influenced. Results show strong in-regime performance but limited cross-regime robustness and scalability, motivating training under diversified behavioral conditions.
 
 Conducted at **IRIDIA** (ULB's AI research lab), supervised by Prof. Mauro Birattari.
@@ -72,91 +72,91 @@ Conducted at **IRIDIA** (ULB's AI research lab), supervised by Prof. Mauro Birat
 
 ---
 
-### 🎨 [Teaching LLMs to Draw: SVG as a Scaffold for Spatial Intelligence](https://www.kaggle.com/code/alexandrelemercier/llms-the-art-of-svg-drawing-with-gemma-2)
+### [Teaching LLMs to Draw: SVG as a Scaffold for Spatial Intelligence](https://www.kaggle.com/code/alexandrelemercier/llms-the-art-of-svg-drawing-with-gemma-2)
 Investigated three strategies for improving **visuo-spatial reasoning in LLMs** through SVG generation. (1) **Knowledge distillation**: built a 2,000-image dataset using GPT o3-mini-high and fine-tuned **Gemma 2** via **LoRA** on TPU, reaching near-tutor quality in just 11 minutes of training. (2) **Grounded representation learning**: designed a JPG→SVG conversion pipeline using superpixel segmentation and morphological operators on the Flickr30k dataset. (3) **Chain-of-thought prompting**: engineered a multi-step CoT on **Gemini 2.0 Flash** for iterative SVG refinement without any training. Also demonstrated the unreliability of the "aesthetic score" metric using **Simulated Annealing** to generate high-scoring chaotic images.
 
 `Python` `LLM Fine-Tuning` `LoRA` `Gemma 2` `Gemini 2.0 Flash` `SVG` `Knowledge Distillation` `Chain-of-Thought` `Kaggle TPU`
 
 ---
 
-### 🚆 [SNCB Train Incident Classifier](https://github.com/Wassim-AlKhouri/data_mining)
+### [SNCB Train Incident Classifier](https://github.com/Wassim-AlKhouri/data_mining)
 Applied data mining techniques to real Belgian railway operational data from an **SNCB data challenge**. Built a complete ML pipeline: preprocessing raw on-board event sequences, engineering features via **FP-Growth frequent itemset mining**, one-hot encoding, and training classifiers to predict incident types (ETCS, brakes, doors, traction, etc.). Closely mirroring the approach published at ECAI 2024 by the SNCB engineering team.
 
 `Python` `Jupyter` `Scikit-Learn` `Pandas` `FP-Growth` `mlxtend`
 
 ---
 
-### ☁️ Cloud Backend: Coffee Vendor App
+### Cloud Backend: Coffee Vendor App
 Designed and deployed a production-grade cloud backend on AWS for a coffee vendor application. Built with **EC2** compute, **RDS (MySQL)**, **Application Load Balancer** with **Auto Scaling**, and full **VPC** configuration. Containerised the application with **Docker** and implemented a **CI/CD pipeline**. Architected to AWS Well-Architected patterns for reliability and scalability under load.
 
 `AWS` `EC2` `RDS` `ALB` `VPC` `Auto Scaling` `Docker` `CI/CD` `MySQL` `Linux` `Bash`
 
 ---
 
-### 📡 [Air Quality Prediction from Satellite Data](https://github.com/Wassim-AlKhouri/Air-Quality-Prediction-from-Satellite-Data)
+### [Air Quality Prediction from Satellite Data](https://github.com/Wassim-AlKhouri/Air-Quality-Prediction-from-Satellite-Data)
 Built an end-to-end ML regression pipeline in **R** to predict air quality from **Sentinel-5P satellite** atmospheric measurements (NO₂, SO₂, CO, O₃, HCHO, aerosol indices, cloud properties, wind, humidity) over 30,000+ samples. Applied **correlation-based** and **mRMR** feature selection with 5-fold cross-validation, then benchmarked **XGBoost**, **Random Forest**, **SVM**, and a **Keras neural network** to find the best predictor.
 
 `R` `XGBoost` `Random Forest` `SVM` `Keras` `tidymodels` `Feature Selection` `mRMR`
 
 ---
 
-### 🧬 [Genomic Segmentation with Hidden Markov Models](https://github.com/Wassim-AlKhouri/bioinfo)
+### [Genomic Segmentation with Hidden Markov Models](https://github.com/Wassim-AlKhouri/bioinfo)
 Applied the **oHMMed** Bayesian HMM framework to segment genomes into ordered hidden states based on SNV burden and GC content. Built a full R pipeline covering raw data formatting (FASTA/MAF → 100 kb windows), model fitting with convergence diagnostics, and BED file export for genome browser visualization. Ran experiments on **human breast cancer cohort** data and **Arabidopsis thaliana**, using Bioconductor genomic infrastructure throughout.
 
 `R` `oHMMed` `Hidden Markov Models` `Bioconductor` `Genomics` `ggplot2`
 
 ---
 
-### 🎲 [MCTS Improvements for Connect 4](https://github.com/Wassim-AlKhouri/techIA)
+### [MCTS Improvements for Connect 4](https://github.com/Wassim-AlKhouri/techIA)
 Implemented and benchmarked four enhancements to the **Monte Carlo Tree Search** algorithm applied to Connect 4, inspired by Browne et al.'s 2012 survey. Improvements tested: (1) **root parallelization** across child nodes (~70% win rate vs. baseline); (2) **decisive/anti-decisive move detection** for instant winning/blocking moves; (3) **multi-simulation backpropagation** averaging multiple rollouts per node; and (4) **ε-greedy and εn-greedy exploration strategies** as alternatives to UCB1, finding optimal performance at ε ≈ 0.4. Each improvement was evaluated over 500 games with win/draw rate curves.
 
 `Python` `MCTS` `Game AI` `UCB1` `Tree Search` `Exploration-Exploitation`
 
 ---
 
-### ⚙️ [Continuous Optimization Solver](https://github.com/Tomvray/CO/tree/main)
+### [Continuous Optimization Solver](https://github.com/Tomvray/CO/tree/main)
 Implemented from scratch in **C** a modular solver for regularized regression problems (LASSO, Ridge, Elastic Net). Algorithms implemented include **ISTA**, **FISTA** (with momentum, achieving O(1/k²) convergence), **L-BFGS** with two-loop recursion, **backtracking line search** with Armijo condition, and a hybrid FISTA-L-BFGS variant. Benchmarked across four datasets (synthetic, Boston Housing, Red Wine Quality, Gas Turbine Emissions) with convergence curves and per-iteration wall-clock timing. Results empirically confirmed theoretical convergence rates and established L-BFGS as the method of choice for smooth objectives.
 
 `C` `Numerical Optimization` `FISTA` `L-BFGS` `Proximal Methods` `Convex Optimization`
 
 ---
 
-### 🗓️ [Interpreter Scheduling Problem (Combinatorial Optimization)](https://github.com/Tomvray/Combinatorial/tree/main)
+### [Interpreter Scheduling Problem (Combinatorial Optimization)](https://github.com/Tomvray/Combinatorial/tree/main)
 Formulated and solved the **Interpreter Scheduling Problem (ISP)** (assigning language interpreters to multilingual sessions across a 40-block weekly schedule) as an **Integer Program** solved with **Gurobi**. Built three progressively richer models: (1) a base IP with two objective functions (maximise covered language pairs vs. maximise fully-covered sessions); (2) an extended model with operational constraints (session caps, consecutive-block limits); and (3) a bridging extension allowing indirect language coverage through intermediate interpreters. Benchmarked across multiple instance sizes (up to 24 languages, variable sessions and interpreters) reporting objective values, MIP gaps, and runtimes.
 
 `Python` `Gurobi` `Integer Programming` `Combinatorial Optimization` `MIP` `Scheduling`
 
 ---
 
-### 🏙️ [Multi-Objective Urban Planning Optimizer](https://github.com/Wassim-AlKhouri/Projet_RO)
+### [Multi-Objective Urban Planning Optimizer](https://github.com/Wassim-AlKhouri/Projet_RO)
 Implemented a **genetic algorithm** to optimally place production fields on a city map under a fixed budget, balancing three competing objectives: energy production, proximity to residential zones, and spatial compactness. Used **PROMETHEE II** multi-criteria decision analysis to rank Pareto-optimal solutions, with 3D Pareto front visualization.
 
 `Python` `Genetic Algorithm` `PROMETHEE` `Multi-Objective Optimization` `Matplotlib`
 
 ---
 
-### 📚 Spring Boot Flashcard Study App
+### Spring Boot Flashcard Study App
 Full-stack flashcard application built with **Spring Boot** and **PostgreSQL**, developed collaboratively using Agile/Scrum methodology. Features user authentication, deck management, and spaced repetition logic.
 
 `Java` `Spring Boot` `PostgreSQL` `REST API` `Agile/Scrum`
 
 ---
 
-### 💊 [Medical Records Database App](https://github.com/Wassim-AlKhouri/Projet_BDD)
+### [Medical Records Database App](https://github.com/Wassim-AlKhouri/Projet_BDD)
 Designed and implemented a relational database for a healthcare system covering patients, doctors, pharmacists, prescriptions, and diagnoses. Built a **Tkinter GUI** supporting patient login by NISS, viewing active/past treatments, detecting conflicting medications, finding specialist doctors, and running 10 complex analytical SQL queries (e.g. cross-decade drug consumption trends, off-specialty prescription detection, product recall tracking).
 
 `Python` `MySQL` `Tkinter` `SQL`
 
 ---
 
-### ♟️ [Chess Database with Advanced Indexing](https://github.com/Wassim-AlKhouri/BDD_chess)
+### [Chess Database with Advanced Indexing](https://github.com/Wassim-AlKhouri/BDD_chess)
 Built a large-scale chess game database in **C** backed by **PostgreSQL**, storing and querying millions of games. Implemented and benchmarked **GIN** and **B-tree** indexes to dramatically accelerate complex SQL queries over game metadata and move sequences.
 
 `C` `PostgreSQL` `GIN Index` `B-tree Index` `SQL`
 
 ---
 
-### 🎮 [Tower Defense Game](https://github.com/Wassim-AlKhouri/TDI)
+### [Tower Defense Game](https://github.com/Wassim-AlKhouri/TDI)
 Developed a fully playable **tower defense game** for Android in **Kotlin** as a deep dive into object-oriented design. Covers core OOP principles (inheritance, polymorphism, encapsulation, and design patterns) applied to game entities (towers, enemies, projectiles, waves).
 
 `Kotlin` `Android` `OOP` `Game Development`
