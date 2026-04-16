@@ -87,6 +87,13 @@ Full-stack flashcard application built with **Spring Boot** and **PostgreSQL**, 
 
 ---
 
+### 🎨 Teaching LLMs to Draw: SVG as a Scaffold for Spatial Intelligence *(Current Trends in AI — ULB)*
+Investigated three strategies for improving **visuo-spatial reasoning in LLMs** through SVG generation. (1) **Knowledge distillation**: built a 2,000-image dataset using GPT o3-mini-high and fine-tuned **Gemma 2** via **LoRA** on TPU — reaching near-tutor quality in just 11 minutes of training. (2) **Grounded representation learning**: designed a JPG→SVG conversion pipeline using superpixel segmentation and morphological operators on the Flickr30k dataset. (3) **Chain-of-thought prompting**: engineered a multi-step CoT on **Gemini 2.0 Flash** for iterative SVG refinement without any training. Also demonstrated the unreliability of the "aesthetic score" metric using **Simulated Annealing** to generate high-scoring chaotic images.
+
+`Python` `LLM Fine-Tuning` `LoRA` `Gemma 2` `Gemini 2.0 Flash` `SVG` `Knowledge Distillation` `Chain-of-Thought` `Kaggle TPU`
+
+---
+
 ### 🚆 SNCB Train Incident Classifier *(data_mining)*
 Applied data mining techniques to real Belgian railway operational data from an **SNCB data challenge**. Built a complete ML pipeline: preprocessing raw on-board event sequences, engineering features via **FP-Growth frequent itemset mining**, one-hot encoding, and training classifiers to predict incident types (ETCS, brakes, doors, traction, etc.) — closely mirroring the approach published at ECAI 2024 by the SNCB engineering team.
 
