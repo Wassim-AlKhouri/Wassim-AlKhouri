@@ -86,7 +86,7 @@ Applied data mining techniques to real Belgian railway operational data from an 
 
 ---
 
-### ☁️ Cloud Backend — Coffee Vendor App
+### ☁️ Cloud Backend: Coffee Vendor App
 Designed and deployed a production-grade cloud backend on AWS for a coffee vendor application. Built with **EC2** compute, **RDS (MySQL)**, **Application Load Balancer** with **Auto Scaling**, and full **VPC** configuration. Containerised the application with **Docker** and implemented a **CI/CD pipeline**. Architected to AWS Well-Architected patterns for reliability and scalability under load.
 
 `AWS` `EC2` `RDS` `ALB` `VPC` `Auto Scaling` `Docker` `CI/CD` `MySQL` `Linux` `Bash`
