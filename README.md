@@ -79,7 +79,7 @@ Investigated three strategies for improving **visuo-spatial reasoning in LLMs** 
 
 ---
 
-### 🚆 SNCB Train Incident Classifier *(data_mining)*
+### 🚆 [SNCB Train Incident Classifier](https://github.com/Wassim-AlKhouri/data_mining) *(data_mining)*
 Applied data mining techniques to real Belgian railway operational data from an **SNCB data challenge**. Built a complete ML pipeline: preprocessing raw on-board event sequences, engineering features via **FP-Growth frequent itemset mining**, one-hot encoding, and training classifiers to predict incident types (ETCS, brakes, doors, traction, etc.) — closely mirroring the approach published at ECAI 2024 by the SNCB engineering team.
 
 `Python` `Jupyter` `Scikit-Learn` `Pandas` `FP-Growth` `mlxtend`
