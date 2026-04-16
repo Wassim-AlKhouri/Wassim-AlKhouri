@@ -10,7 +10,6 @@
     <img src="https://img.shields.io/badge/LinkedIn-Wassim%20Al%20Khouri-0A66C2?style=flat&logo=linkedin&logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/Location-Brussels%2C%20Belgium-E63946?style=flat&logo=googlemaps&logoColor=white" />
-  <img src="https://img.shields.io/badge/Chess-Enthusiast-8B5CF6?style=flat&logo=lichess&logoColor=white" />
 </p>
 
 ---
@@ -33,11 +32,11 @@ I'm passionate about the intersection of **reinforcement learning**, **distribut
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 
 **AI / ML**
 
@@ -73,27 +72,6 @@ Designed and implemented a simulation pipeline bridging **Unity**, **ARGoS**, an
 
 ---
 
-### ☁️ AWS Cloud Backend
-Architected and deployed a scalable cloud backend on AWS featuring **EC2, RDS, ALB, Auto Scaling Groups, VPC**, and a **CI/CD pipeline** with CodePipeline. Focused on high availability and infrastructure-as-code principles.
-
-`AWS` `EC2` `RDS` `VPC` `CodePipeline` `Auto Scaling`
-
----
-
-### 📚 Spring Boot Flashcard Study App *(Team Agile Project)*
-Full-stack flashcard application built with **Spring Boot** and **PostgreSQL**, developed collaboratively using Agile/Scrum methodology. Features user authentication, deck management, and spaced repetition logic.
-
-`Java` `Spring Boot` `PostgreSQL` `REST API` `Agile/Scrum`
-
----
-
-### 🧬 [Genomic Segmentation with Hidden Markov Models](https://github.com/Wassim-AlKhouri/bioinfo) *(oHMMed)*
-Applied the **oHMMed** Bayesian HMM framework to segment genomes into ordered hidden states based on SNV burden and GC content. Built a full R pipeline covering raw data formatting (FASTA/MAF → 100 kb windows), model fitting with convergence diagnostics, and BED file export for genome browser visualization. Ran experiments on **human breast cancer cohort** data and **Arabidopsis thaliana**, using Bioconductor genomic infrastructure throughout.
-
-`R` `oHMMed` `Hidden Markov Models` `Genomics`
-
----
-
 ### 🎨 Teaching LLMs to Draw: SVG as a Scaffold for Spatial Intelligence *(Current Trends in AI — ULB)*
 Investigated three strategies for improving **visuo-spatial reasoning in LLMs** through SVG generation. (1) **Knowledge distillation**: built a 2,000-image dataset using GPT o3-mini-high and fine-tuned **Gemma 2** via **LoRA** on TPU — reaching near-tutor quality in just 11 minutes of training. (2) **Grounded representation learning**: designed a JPG→SVG conversion pipeline using superpixel segmentation and morphological operators on the Flickr30k dataset. (3) **Chain-of-thought prompting**: engineered a multi-step CoT on **Gemini 2.0 Flash** for iterative SVG refinement without any training. Also demonstrated the unreliability of the "aesthetic score" metric using **Simulated Annealing** to generate high-scoring chaotic images.
 
@@ -108,10 +86,45 @@ Applied data mining techniques to real Belgian railway operational data from an 
 
 ---
 
+### 📡 Air Quality Prediction from Satellite Data *(Statistical Foundations of ML — ULB)*
+Built an end-to-end ML regression pipeline in **R** to predict air quality from **Sentinel-5P satellite** atmospheric measurements (NO₂, SO₂, CO, O₃, HCHO, aerosol indices, cloud properties, wind, humidity) over 30,000+ samples. Applied **correlation-based** and **mRMR** feature selection with 5-fold cross-validation, then benchmarked **XGBoost**, **Random Forest**, **SVM**, and a **Keras neural network** to find the best predictor.
+
+`R` `XGBoost` `Random Forest` `SVM` `Keras` `tidymodels` `Feature Selection` `mRMR`
+
+---
+
+### 🧬 [Genomic Segmentation with Hidden Markov Models](https://github.com/Wassim-AlKhouri/bioinfo) *(oHMMed)*
+Applied the **oHMMed** Bayesian HMM framework to segment genomes into ordered hidden states based on SNV burden and GC content. Built a full R pipeline covering raw data formatting (FASTA/MAF → 100 kb windows), model fitting with convergence diagnostics, and BED file export for genome browser visualization. Ran experiments on **human breast cancer cohort** data and **Arabidopsis thaliana**, using Bioconductor genomic infrastructure throughout.
+
+`R` `oHMMed` `Hidden Markov Models` `Bioconductor` `Genomics` `ggplot2`
+
+---
+
 ### 🏙️ Multi-Objective Urban Planning Optimizer *(Projet_RO)*
 Implemented a **genetic algorithm** to optimally place production fields on a city map under a fixed budget, balancing three competing objectives: energy production, proximity to residential zones, and spatial compactness. Used **PROMETHEE II** multi-criteria decision analysis to rank Pareto-optimal solutions, with 3D Pareto front visualization.
 
 `Python` `Genetic Algorithm` `PROMETHEE` `Multi-Objective Optimization` `Matplotlib`
+
+---
+
+### 🎲 MCTS Improvements for Connect 4 *(AI Techniques — ULB)*
+Implemented and benchmarked four enhancements to the **Monte Carlo Tree Search (MCTS)** algorithm applied to Connect 4, inspired by Browne et al.'s 2012 survey. Improvements tested: (1) **root parallelization** across child nodes (~70% win rate vs. baseline); (2) **decisive/anti-decisive move detection** for instant winning/blocking moves; (3) **multi-simulation backpropagation** averaging multiple rollouts per node; and (4) **ε-greedy and εn-greedy exploration strategies** as alternatives to UCB1, finding optimal performance at ε ≈ 0.4. Each improvement was evaluated over 500 games with win/draw rate curves.
+
+`Python` `MCTS` `Game AI` `UCB1` `Tree Search` `Exploration-Exploitation`
+
+---
+
+### ☁️ AWS Cloud Backend
+Architected and deployed a scalable cloud backend on AWS featuring **EC2, RDS, ALB, Auto Scaling Groups, VPC**, and a **CI/CD pipeline** with CodePipeline. Focused on high availability and infrastructure-as-code principles.
+
+`AWS` `EC2` `RDS` `VPC` `CodePipeline` `Auto Scaling`
+
+---
+
+### 📚 Spring Boot Flashcard Study App *(Team Agile Project)*
+Full-stack flashcard application built with **Spring Boot** and **PostgreSQL**, developed collaboratively using Agile/Scrum methodology. Features user authentication, deck management, and spaced repetition logic.
+
+`Java` `Spring Boot` `PostgreSQL` `REST API` `Agile/Scrum`
 
 ---
 
@@ -128,7 +141,6 @@ Built a large-scale chess game database in **C** backed by **PostgreSQL**, stori
 `C` `PostgreSQL` `GIN Index` `B-tree Index` `SQL`
 
 ---
-
 
 ### 🎮 Tower Defense Game *(TDI — Android)*
 Developed a fully playable **tower defense game** for Android in **Kotlin** as a deep dive into object-oriented design. Covers core OOP principles — inheritance, polymorphism, encapsulation, and design patterns — applied to game entities (towers, enemies, projectiles, waves).
