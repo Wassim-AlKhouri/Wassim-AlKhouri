@@ -21,7 +21,7 @@ I'm a Belgian computer engineer with a specialization in **AI, multi-agent syste
 - 🤖 Thesis: Multi-arena swarm robotics & human–robot crowd interaction (Unity + ARGoS + ROS1)
 - 🧠 Interests: Multi-agent RL, evolutionary game theory, NLP, game development
 - ☁️ Cloud: AWS certified (Cloud Foundations)
-- 🏆 3rd place — Euranova ML Hackathon (March 2025)
+- 🏆 3rd place at Euranova ML Hackathon (March 2025)
 
 ---
 
