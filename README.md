@@ -87,6 +87,13 @@ Full-stack flashcard application built with **Spring Boot** and **PostgreSQL**, 
 
 ---
 
+### 🧬 [Genomic Segmentation with Hidden Markov Models](https://github.com/Wassim-AlKhouri/bioinfo) *(oHMMed)*
+Applied the **oHMMed** Bayesian HMM framework to segment genomes into ordered hidden states based on SNV burden and GC content. Built a full R pipeline covering raw data formatting (FASTA/MAF → 100 kb windows), model fitting with convergence diagnostics, and BED file export for genome browser visualization. Ran experiments on **human breast cancer cohort** data and **Arabidopsis thaliana**, using Bioconductor genomic infrastructure throughout.
+
+`R` `oHMMed` `Hidden Markov Models` `Bioconductor` `Genomics` `ggplot2`
+
+---
+
 ### 🎨 Teaching LLMs to Draw: SVG as a Scaffold for Spatial Intelligence *(Current Trends in AI — ULB)*
 Investigated three strategies for improving **visuo-spatial reasoning in LLMs** through SVG generation. (1) **Knowledge distillation**: built a 2,000-image dataset using GPT o3-mini-high and fine-tuned **Gemma 2** via **LoRA** on TPU — reaching near-tutor quality in just 11 minutes of training. (2) **Grounded representation learning**: designed a JPG→SVG conversion pipeline using superpixel segmentation and morphological operators on the Flickr30k dataset. (3) **Chain-of-thought prompting**: engineered a multi-step CoT on **Gemini 2.0 Flash** for iterative SVG refinement without any training. Also demonstrated the unreliability of the "aesthetic score" metric using **Simulated Annealing** to generate high-scoring chaotic images.
 
@@ -121,6 +128,7 @@ Built a large-scale chess game database in **C** backed by **PostgreSQL**, stori
 `C` `PostgreSQL` `GIN Index` `B-tree Index` `SQL`
 
 ---
+
 
 ### 🎮 Tower Defense Game *(TDI — Android)*
 Developed a fully playable **tower defense game** for Android in **Kotlin** as a deep dive into object-oriented design. Covers core OOP principles — inheritance, polymorphism, encapsulation, and design patterns — applied to game entities (towers, enemies, projectiles, waves).
