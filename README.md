@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Computer Engineer · AI & Multi-Agent Systems · Brussels, Belgium</b><br/>
-  MSc Computer Science & Engineering — École Polytechnique de Bruxelles, ULB
+  MSc Computer Science & Engineering — École Polytechnique de Bruxelles, ULB · Mention Distinction
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-Wassim%20Al%20Khouri-0A66C2?style=flat&logo=linkedin&logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/Location-Brussels%2C%20Belgium-E63946?style=flat&logo=googlemaps&logoColor=white" />
-  <img src="https://img.shields.io/badge/Chess-Competitive%20Player-8B5CF6?style=flat&logo=lichess&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chess-Enthusiast-8B5CF6?style=flat&logo=lichess&logoColor=white" />
 </p>
 
 ---
@@ -37,6 +37,7 @@ I'm passionate about the intersection of **reinforcement learning**, **distribut
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 
 **AI / ML**
 
@@ -86,23 +87,44 @@ Full-stack flashcard application built with **Spring Boot** and **PostgreSQL**, 
 
 ---
 
-### 🗃️ TinyDB — Minimal Relational Database Engine
-Built a lightweight relational database engine from scratch in **C++**, supporting basic SQL-like queries, B-tree indexing, and page-based storage management.
+### 🚆 SNCB Train Incident Classifier *(data_mining)*
+Applied data mining techniques to real Belgian railway operational data from an **SNCB data challenge**. Built a complete ML pipeline: preprocessing raw on-board event sequences, engineering features via **FP-Growth frequent itemset mining**, one-hot encoding, and training classifiers to predict incident types (ETCS, brakes, doors, traction, etc.) — closely mirroring the approach published at ECAI 2024 by the SNCB engineering team.
 
-`C++` `Data Structures` `Storage Engines`
+`Python` `Jupyter` `Scikit-Learn` `Pandas` `FP-Growth` `mlxtend`
 
 ---
 
-### 🔍 Data Mining & ML Experiments
-Exploratory data analysis and ML pipeline notebooks covering classification, clustering, and feature engineering on real-world datasets.
+### 🏙️ Multi-Objective Urban Planning Optimizer *(Projet_RO)*
+Implemented a **genetic algorithm** to optimally place production fields on a city map under a fixed budget, balancing three competing objectives: energy production, proximity to residential zones, and spatial compactness. Used **PROMETHEE II** multi-criteria decision analysis to rank Pareto-optimal solutions, with 3D Pareto front visualization.
 
-`Python` `Jupyter` `Scikit-Learn` `Pandas`
+`Python` `Genetic Algorithm` `PROMETHEE` `Multi-Objective Optimization` `Matplotlib`
+
+---
+
+### 💊 Medical Records Database App *(Projet_BDD)*
+Designed and implemented a relational database for a healthcare system covering patients, doctors, pharmacists, prescriptions, and diagnoses. Built a **Tkinter GUI** supporting patient login by NISS, viewing active/past treatments, detecting conflicting medications, finding specialist doctors, and running 10 complex analytical SQL queries (e.g. cross-decade drug consumption trends, off-specialty prescription detection, product recall tracking).
+
+`Python` `MySQL` `Tkinter` `SQL`
+
+---
+
+### ♟️ Chess Database with Advanced Indexing *(BDD_chess)*
+Built a large-scale chess game database in **C** backed by **PostgreSQL**, storing and querying millions of games. Implemented and benchmarked **GIN** and **B-tree** indexes to dramatically accelerate complex SQL queries over game metadata and move sequences.
+
+`C` `PostgreSQL` `GIN Index` `B-tree Index` `SQL`
+
+---
+
+### 🎮 Tower Defense Game *(TDI — Android)*
+Developed a fully playable **tower defense game** for Android in **Kotlin** as a deep dive into object-oriented design. Covers core OOP principles — inheritance, polymorphism, encapsulation, and design patterns — applied to game entities (towers, enemies, projectiles, waves).
+
+`Kotlin` `Android` `OOP` `Game Development`
 
 ---
 
 ## Languages
 
-🇬🇧 English (C1) · 🇫🇷 French (C1) · 🇳🇱 Dutch (A2)
+🇫🇷 French (Native) · 🇬🇧 English (C1) · 🇳🇱 Dutch (A2)
 
 ---
 
