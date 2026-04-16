@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Computer Engineer · AI & Multi-Agent Systems · Brussels, Belgium</b><br/>
-  MSc Computer Science & Engineering — École Polytechnique de Bruxelles, ULB · Mention Distinction
+  MSc Computer Science & Engineering at École Polytechnique de Bruxelles, ULB
 </p>
 
 <p align="center">
@@ -143,7 +143,7 @@ Built a large-scale chess game database in **C** backed by **PostgreSQL**, stori
 ---
 
 ### 🎮 [Tower Defense Game](https://github.com/Wassim-AlKhouri/TDI)
-Developed a fully playable **tower defense game** for Android in **Kotlin** as a deep dive into object-oriented design. Covers core OOP principles — inheritance, polymorphism, encapsulation, and design patterns — applied to game entities (towers, enemies, projectiles, waves).
+Developed a fully playable **tower defense game** for Android in **Kotlin** as a deep dive into object-oriented design. Covers core OOP principles (inheritance, polymorphism, encapsulation, and design patterns) applied to game entities (towers, enemies, projectiles, waves).
 
 `Kotlin` `Android` `OOP` `Game Development`
 
