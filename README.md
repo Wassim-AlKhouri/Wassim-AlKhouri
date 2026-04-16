@@ -90,7 +90,7 @@ Full-stack flashcard application built with **Spring Boot** and **PostgreSQL**, 
 ### 🧬 [Genomic Segmentation with Hidden Markov Models](https://github.com/Wassim-AlKhouri/bioinfo) *(oHMMed)*
 Applied the **oHMMed** Bayesian HMM framework to segment genomes into ordered hidden states based on SNV burden and GC content. Built a full R pipeline covering raw data formatting (FASTA/MAF → 100 kb windows), model fitting with convergence diagnostics, and BED file export for genome browser visualization. Ran experiments on **human breast cancer cohort** data and **Arabidopsis thaliana**, using Bioconductor genomic infrastructure throughout.
 
-`R` `oHMMed` `Hidden Markov Models` `Bioconductor` `Genomics` `ggplot2`
+`R` `oHMMed` `Hidden Markov Models` `Genomics`
 
 ---
 
