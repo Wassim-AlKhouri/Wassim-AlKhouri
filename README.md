@@ -72,7 +72,7 @@ Designed and implemented a simulation pipeline bridging **Unity**, **ARGoS**, an
 
 ---
 
-### 🎨 Teaching LLMs to Draw: SVG as a Scaffold for Spatial Intelligence *(Current Trends in AI — ULB)*
+### 🎨 [Teaching LLMs to Draw: SVG as a Scaffold for Spatial Intelligence](https://www.kaggle.com/code/alexandrelemercier/llms-the-art-of-svg-drawing-with-gemma-2) *(Current Trends in AI — ULB)*
 Investigated three strategies for improving **visuo-spatial reasoning in LLMs** through SVG generation. (1) **Knowledge distillation**: built a 2,000-image dataset using GPT o3-mini-high and fine-tuned **Gemma 2** via **LoRA** on TPU — reaching near-tutor quality in just 11 minutes of training. (2) **Grounded representation learning**: designed a JPG→SVG conversion pipeline using superpixel segmentation and morphological operators on the Flickr30k dataset. (3) **Chain-of-thought prompting**: engineered a multi-step CoT on **Gemini 2.0 Flash** for iterative SVG refinement without any training. Also demonstrated the unreliability of the "aesthetic score" metric using **Simulated Annealing** to generate high-scoring chaotic images.
 
 `Python` `LLM Fine-Tuning` `LoRA` `Gemma 2` `Gemini 2.0 Flash` `SVG` `Knowledge Distillation` `Chain-of-Thought` `Kaggle TPU`
@@ -86,7 +86,7 @@ Applied data mining techniques to real Belgian railway operational data from an 
 
 ---
 
-### 📡 Air Quality Prediction from Satellite Data *(Statistical Foundations of ML — ULB)*
+### 📡 [Air Quality Prediction from Satellite Data](https://github.com/Wassim-AlKhouri/Air-Quality-Prediction-from-Satellite-Data) *(Statistical Foundations of ML — ULB)*
 Built an end-to-end ML regression pipeline in **R** to predict air quality from **Sentinel-5P satellite** atmospheric measurements (NO₂, SO₂, CO, O₃, HCHO, aerosol indices, cloud properties, wind, humidity) over 30,000+ samples. Applied **correlation-based** and **mRMR** feature selection with 5-fold cross-validation, then benchmarked **XGBoost**, **Random Forest**, **SVM**, and a **Keras neural network** to find the best predictor.
 
 `R` `XGBoost` `Random Forest` `SVM` `Keras` `tidymodels` `Feature Selection` `mRMR`
@@ -100,14 +100,14 @@ Applied the **oHMMed** Bayesian HMM framework to segment genomes into ordered hi
 
 ---
 
-### 🏙️ Multi-Objective Urban Planning Optimizer *(Projet_RO)*
+### 🏙️ [Multi-Objective Urban Planning Optimizer](https://github.com/Wassim-AlKhouri/Projet_RO) *(Projet_RO)*
 Implemented a **genetic algorithm** to optimally place production fields on a city map under a fixed budget, balancing three competing objectives: energy production, proximity to residential zones, and spatial compactness. Used **PROMETHEE II** multi-criteria decision analysis to rank Pareto-optimal solutions, with 3D Pareto front visualization.
 
 `Python` `Genetic Algorithm` `PROMETHEE` `Multi-Objective Optimization` `Matplotlib`
 
 ---
 
-### 🎲 MCTS Improvements for Connect 4 *(AI Techniques — ULB)*
+### 🎲 [MCTS Improvements for Connect 4](https://github.com/Wassim-AlKhouri/techIA) *(AI Techniques — ULB)*
 Implemented and benchmarked four enhancements to the **Monte Carlo Tree Search (MCTS)** algorithm applied to Connect 4, inspired by Browne et al.'s 2012 survey. Improvements tested: (1) **root parallelization** across child nodes (~70% win rate vs. baseline); (2) **decisive/anti-decisive move detection** for instant winning/blocking moves; (3) **multi-simulation backpropagation** averaging multiple rollouts per node; and (4) **ε-greedy and εn-greedy exploration strategies** as alternatives to UCB1, finding optimal performance at ε ≈ 0.4. Each improvement was evaluated over 500 games with win/draw rate curves.
 
 `Python` `MCTS` `Game AI` `UCB1` `Tree Search` `Exploration-Exploitation`
@@ -128,21 +128,21 @@ Full-stack flashcard application built with **Spring Boot** and **PostgreSQL**, 
 
 ---
 
-### 💊 Medical Records Database App *(Projet_BDD)*
+### 💊 [Medical Records Database App](https://github.com/Wassim-AlKhouri/Projet_BDD) *(Projet_BDD)*
 Designed and implemented a relational database for a healthcare system covering patients, doctors, pharmacists, prescriptions, and diagnoses. Built a **Tkinter GUI** supporting patient login by NISS, viewing active/past treatments, detecting conflicting medications, finding specialist doctors, and running 10 complex analytical SQL queries (e.g. cross-decade drug consumption trends, off-specialty prescription detection, product recall tracking).
 
 `Python` `MySQL` `Tkinter` `SQL`
 
 ---
 
-### ♟️ Chess Database with Advanced Indexing *(BDD_chess)*
+### ♟️ [Chess Database with Advanced Indexing](https://github.com/Wassim-AlKhouri/BDD_chess) *(BDD_chess)*
 Built a large-scale chess game database in **C** backed by **PostgreSQL**, storing and querying millions of games. Implemented and benchmarked **GIN** and **B-tree** indexes to dramatically accelerate complex SQL queries over game metadata and move sequences.
 
 `C` `PostgreSQL` `GIN Index` `B-tree Index` `SQL`
 
 ---
 
-### 🎮 Tower Defense Game *(TDI — Android)*
+### 🎮 [Tower Defense Game](https://github.com/Wassim-AlKhouri/TDI) *(TDI — Android)*
 Developed a fully playable **tower defense game** for Android in **Kotlin** as a deep dive into object-oriented design. Covers core OOP principles — inheritance, polymorphism, encapsulation, and design patterns — applied to game entities (towers, enemies, projectiles, waves).
 
 `Kotlin` `Android` `OOP` `Game Development`
