@@ -114,6 +114,20 @@ Implemented and benchmarked four enhancements to the **Monte Carlo Tree Search**
 
 ---
 
+### ⚙️ [Continuous Optimization Solver](https://github.com/Tomvray/CO/tree/main)
+Implemented from scratch in **C** a modular solver for regularized regression problems (LASSO, Ridge, Elastic Net). Algorithms implemented include **ISTA**, **FISTA** (with momentum, achieving O(1/k²) convergence), **L-BFGS** with two-loop recursion, **backtracking line search** with Armijo condition, and a hybrid FISTA-L-BFGS variant. Benchmarked across four datasets (synthetic, Boston Housing, Red Wine Quality, Gas Turbine Emissions) with convergence curves and per-iteration wall-clock timing. Results empirically confirmed theoretical convergence rates and established L-BFGS as the method of choice for smooth objectives.
+
+`C` `Numerical Optimization` `FISTA` `L-BFGS` `Proximal Methods` `Convex Optimization`
+
+---
+
+### 🗓️ [Interpreter Scheduling Problem — Combinatorial Optimization](https://github.com/Tomvray/Combinatorial/tree/main)
+Formulated and solved the **Interpreter Scheduling Problem (ISP)** (assigning language interpreters to multilingual sessions across a 40-block weekly schedule) as an **Integer Program** solved with **Gurobi**. Built three progressively richer models: (1) a base IP with two objective functions (maximise covered language pairs vs. maximise fully-covered sessions); (2) an extended model with operational constraints (session caps, consecutive-block limits); and (3) a bridging extension allowing indirect language coverage through intermediate interpreters. Benchmarked across multiple instance sizes (up to 24 languages, variable sessions and interpreters) reporting objective values, MIP gaps, and runtimes.
+
+`Python` `Gurobi` `Integer Programming` `Combinatorial Optimization` `MIP` `Scheduling`
+
+---
+
 ### 🏙️ [Multi-Objective Urban Planning Optimizer](https://github.com/Wassim-AlKhouri/Projet_RO)
 Implemented a **genetic algorithm** to optimally place production fields on a city map under a fixed budget, balancing three competing objectives: energy production, proximity to residential zones, and spatial compactness. Used **PROMETHEE II** multi-criteria decision analysis to rank Pareto-optimal solutions, with 3D Pareto front visualization.
 
