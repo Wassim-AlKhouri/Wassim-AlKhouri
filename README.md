@@ -18,8 +18,6 @@
 
 I'm a Belgian computer engineer with a specialization in **AI, multi-agent systems, and swarm robotics**. My master's thesis was conducted at the [IRIDIA lab](https://iridia.ulb.ac.be/) (ULB's AI research unit), where I worked on simulating and studying emergent behaviors in multi-robot systems interacting with human crowds.
 
-I'm passionate about the intersection of **reinforcement learning**, **distributed intelligence**, and real-world robotics — and I enjoy building things from low-level algorithms up to full-stack cloud deployments.
-
 - 🤖 Thesis: Multi-arena swarm robotics & human–robot crowd interaction (Unity + ARGoS + ROS1)
 - 🧠 Interests: Multi-agent RL, evolutionary game theory, NLP, game development
 - ☁️ Cloud: AWS certified (Cloud Foundations)
@@ -66,27 +64,29 @@ I'm passionate about the intersection of **reinforcement learning**, **distribut
 ## Featured Projects
 
 ### 🤖 Swarm Robotics & Human Crowd Interaction — MSc Thesis
-Designed and implemented a simulation pipeline bridging **Unity**, **ARGoS**, and **ROS1** to study emergent multi-agent behaviors in environments shared with human pedestrians. Implemented **Joint Action Learners (JAL)** with Q-tables and P-tables for multi-agent reinforcement learning in multi-arena settings.
+Investigated how a swarm of robots can guide a human crowd to evacuate a building, and how assumptions about human behavior shape swarm controller design and performance. Built an end-to-end, reproducible simulation pipeline coupling **Unity** (NavMesh-based pedestrian motion via ROS#) and **ARGoS** (robot physics and control) through **ROS 1**, supporting multi-arena headless execution for large-scale batch experiments. Human agents blend robot influence, social herding, and random exploration, modulated by a stress parameter. Swarm controllers were automatically synthesized with **AutoMoDe-TuttiFrutti** as probabilistic finite-state machines and tuned with **irace** under three human behavior regimes: cooperative, semi-cooperative, and socially influenced. Results show strong in-regime performance but limited cross-regime robustness and scalability, motivating training under diversified behavioral conditions.
 
-`Python` `ROS1` `Unity` `ARGoS` `Multi-Agent RL` `Evolutionary Game Theory`
+Conducted at **IRIDIA** (ULB's AI research lab), supervised by Prof. Mauro Birattari.
+
+`Python` `C++` `ROS1` `Unity` `ARGoS` `AutoMoDe` `irace` `Swarm Robotics` `Multi-Agent Systems` `NavMesh`
 
 ---
 
 ### 🎨 [Teaching LLMs to Draw: SVG as a Scaffold for Spatial Intelligence](https://www.kaggle.com/code/alexandrelemercier/llms-the-art-of-svg-drawing-with-gemma-2)
-Investigated three strategies for improving **visuo-spatial reasoning in LLMs** through SVG generation. (1) **Knowledge distillation**: built a 2,000-image dataset using GPT o3-mini-high and fine-tuned **Gemma 2** via **LoRA** on TPU — reaching near-tutor quality in just 11 minutes of training. (2) **Grounded representation learning**: designed a JPG→SVG conversion pipeline using superpixel segmentation and morphological operators on the Flickr30k dataset. (3) **Chain-of-thought prompting**: engineered a multi-step CoT on **Gemini 2.0 Flash** for iterative SVG refinement without any training. Also demonstrated the unreliability of the "aesthetic score" metric using **Simulated Annealing** to generate high-scoring chaotic images.
+Investigated three strategies for improving **visuo-spatial reasoning in LLMs** through SVG generation. (1) **Knowledge distillation**: built a 2,000-image dataset using GPT o3-mini-high and fine-tuned **Gemma 2** via **LoRA** on TPU, reaching near-tutor quality in just 11 minutes of training. (2) **Grounded representation learning**: designed a JPG→SVG conversion pipeline using superpixel segmentation and morphological operators on the Flickr30k dataset. (3) **Chain-of-thought prompting**: engineered a multi-step CoT on **Gemini 2.0 Flash** for iterative SVG refinement without any training. Also demonstrated the unreliability of the "aesthetic score" metric using **Simulated Annealing** to generate high-scoring chaotic images.
 
 `Python` `LLM Fine-Tuning` `LoRA` `Gemma 2` `Gemini 2.0 Flash` `SVG` `Knowledge Distillation` `Chain-of-Thought` `Kaggle TPU`
 
 ---
 
 ### 🚆 [SNCB Train Incident Classifier](https://github.com/Wassim-AlKhouri/data_mining)
-Applied data mining techniques to real Belgian railway operational data from an **SNCB data challenge**. Built a complete ML pipeline: preprocessing raw on-board event sequences, engineering features via **FP-Growth frequent itemset mining**, one-hot encoding, and training classifiers to predict incident types (ETCS, brakes, doors, traction, etc.) — closely mirroring the approach published at ECAI 2024 by the SNCB engineering team.
+Applied data mining techniques to real Belgian railway operational data from an **SNCB data challenge**. Built a complete ML pipeline: preprocessing raw on-board event sequences, engineering features via **FP-Growth frequent itemset mining**, one-hot encoding, and training classifiers to predict incident types (ETCS, brakes, doors, traction, etc.). Closely mirroring the approach published at ECAI 2024 by the SNCB engineering team.
 
 `Python` `Jupyter` `Scikit-Learn` `Pandas` `FP-Growth` `mlxtend`
 
 ---
 
-### ☁️ Cloud Backend: Coffee Vendor App
+### ☁️ Cloud Backend — Coffee Vendor App
 Designed and deployed a production-grade cloud backend on AWS for a coffee vendor application. Built with **EC2** compute, **RDS (MySQL)**, **Application Load Balancer** with **Auto Scaling**, and full **VPC** configuration. Containerised the application with **Docker** and implemented a **CI/CD pipeline**. Architected to AWS Well-Architected patterns for reliability and scalability under load.
 
 `AWS` `EC2` `RDS` `ALB` `VPC` `Auto Scaling` `Docker` `CI/CD` `MySQL` `Linux` `Bash`
