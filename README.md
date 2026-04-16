@@ -102,7 +102,7 @@ Exploratory data analysis and ML pipeline notebooks covering classification, clu
 
 ## Languages
 
-🇬🇧 English (C1) · 🇫🇷 French (C1) · 🇸🇦 Arabic (Native) · 🇳🇱 Dutch (A2)
+🇬🇧 English (C1) · 🇫🇷 French (C1) · 🇳🇱 Dutch (A2)
 
 ---
 
